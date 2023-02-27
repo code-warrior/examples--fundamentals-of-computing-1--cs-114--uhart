@@ -1,4 +1,4 @@
-filename = WhileLoopExample
+filename = NestedWhileLoops
 
 all: compile run
 
