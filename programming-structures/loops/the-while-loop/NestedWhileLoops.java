@@ -4,8 +4,24 @@ public class NestedWhileLoops {
 
     for(int row = 0; row < MAX; row++) {
       for(int col = 0; col < MAX; col++) {
-        System.out.println("row is " + row + " and col is " + col);
+        System.out.println("Row: " + row + "; Col: " + col);
       }
+    }
+
+    System.out.println();
+
+    int row = 0;
+
+    while(row < MAX) {
+      int col = 0;
+
+      while(col < MAX) {
+        System.out.println("Row: " + row + "; Col: " + col);
+
+        col++;
+      }
+
+      row++;
     }
   }
 }
