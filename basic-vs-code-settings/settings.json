@@ -1,0 +1,8 @@
+{
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.settings.editor": "json"
+}
