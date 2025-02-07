@@ -1,6 +1,6 @@
 filename = HelloJavaFX
-# PATH_TO_FX = "C:\Program Files\Java\javafx-sdk-19\lib"
-PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-19/lib
+# PATH_TO_FX = "C:\Program Files\Java\javafx-sdk-23.0.2\lib"
+PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-23.0.2/lib
 module = javafx.controls
 
 all: compile run
