@@ -24,7 +24,8 @@ public class DVDCollection {
   // Adds a DVD to the collection, increasing the size of the
   // collection array if necessary.
   // ---------------------------------------------------------------------------
-  public void addDVD(String title, String director, int year, double cost, boolean bluRay) {
+  public void addDVD(String title, String director, int year, double cost,
+                     boolean bluRay) {
     if (count == collection.length) {
       increaseSize();
     }

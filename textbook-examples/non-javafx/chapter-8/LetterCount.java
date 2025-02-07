@@ -7,10 +7,10 @@
 import java.util.Scanner;
 
 public class LetterCount {
-  // --------------------------------------------------------------------------------
-  // Reads a sentence from the user and counts the number of uppercase and lowercase
-  // letters contained in it.
-  // --------------------------------------------------------------------------------
+  // ---------------------------------------------------------------------------
+  // Reads a sentence from the user and counts the number of uppercase and
+  // lowercase letters contained in it.
+  // ---------------------------------------------------------------------------
   public static void main(String[] args) {
     final int NUMCHARS = 26;
 

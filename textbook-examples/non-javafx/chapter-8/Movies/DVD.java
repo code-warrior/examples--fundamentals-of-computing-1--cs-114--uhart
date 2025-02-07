@@ -15,7 +15,8 @@ public class DVD {
   // ---------------------------------------------------------------------------
   // Creates a new DVD with the specified information.
   // ---------------------------------------------------------------------------
-  public DVD(String title, String director, int year, double cost, boolean bluRay) {
+  public DVD(String title, String director, int year, double cost,
+             boolean bluRay) {
     this.title = title;
     this.director = director;
     this.year = year;

@@ -7,10 +7,10 @@
 import java.util.Scanner;
 
 public class ReverseOrder {
-  // --------------------------------------------------------------------------------
-  // Reads a list of numbers from the user, storing them in an array, then prints
-  // them in the opposite order.
-  // --------------------------------------------------------------------------------
+  // ---------------------------------------------------------------------------
+  // Reads a list of numbers from the user, storing them in an array, then
+  // prints them in the opposite order.
+  // ---------------------------------------------------------------------------
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
 
