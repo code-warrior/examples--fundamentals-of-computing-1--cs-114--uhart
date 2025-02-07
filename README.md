@@ -26,6 +26,6 @@ Each Makefile in every JavaFX-related example has two lines related to the `PATH
 PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-23.0.2/lib
 ```
 
-If you’re a macOS user, the Makefiles are ready to use; you needn’t do anything.
+If you’re a macOS user and the version of the JavaFX library is exactly as shown in the example above, then the Makefiles are ready to use. You needn’t do anything.
 
-If you’re a Windows user, you’ll need to remove the exposed variable on line 2 above, then uncomment the first line by removing the hash (`#`) and the space character that follows it. (This assumes you’ve placed the JavaFX 19 library (`javafx-sdk-19`) in `C:\Program Files\Java`.)
+If you’re a Windows user, you’ll need to remove — or comment out — the exposed variable on line 2 above, then enable line 1 by removing the hash (`#`) and the space character that follows it. **Note**: This assumes you’ve placed the JavaFX library (`javafx-sdk-23.0.2`, as of this writing) in `C:\Program Files\Java`.
