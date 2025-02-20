@@ -1,5 +1,3 @@
-import javax.print.attribute.standard.PrinterName;
-
 public class MethodsExample {
   public static void printName() {
     System.out.printf("%n%s%n", "Ed Bob");
