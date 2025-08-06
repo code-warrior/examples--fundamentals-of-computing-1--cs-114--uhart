@@ -6,9 +6,13 @@ Every single example in this repo was formatted and modified according to the ma
 
 Each example was also tested using `make` on macOS Monterey (12.6.2) and Windows 10 using the Java 19.01 JDK and the JavaFX 19 SDK. Bash was used in macOS; PowerShell 7 and Cygwin were used in Windows.
 
+---
+
 ## Files Scaffold
 
 Graphics using Java via the JavaFX library are covered at the end of every chapter in the textbook. However, I don’t cover graphics until the end of the semester. Consequently, all JavaFX-related examples have been moved to the folder `textbook-examples/javafx`, while all non-JavaFX examples reside in the `textbook-examples/non-javafx` folder.
+
+---
 
 ## Makefiles
 
