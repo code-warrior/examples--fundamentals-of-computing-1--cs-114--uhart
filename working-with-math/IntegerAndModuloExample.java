@@ -9,16 +9,18 @@ public class IntegerAndModuloExample {
   }
 
   public static void main(String[] args) {
-    printDivisionAndModulo(1, 5);
-    printDivisionAndModulo(2, 5);
-    printDivisionAndModulo(3, 5);
-    printDivisionAndModulo(4, 5);
-    printDivisionAndModulo(5, 5);
-    printDivisionAndModulo(6, 5);
-    printDivisionAndModulo(7, 5);
-    printDivisionAndModulo(8, 5);
-    printDivisionAndModulo(9, 5);
-    printDivisionAndModulo(10, 5);
+    int y = 5;
+
+    printDivisionAndModulo(1, y);
+    printDivisionAndModulo(2, y);
+    printDivisionAndModulo(3, y);
+    printDivisionAndModulo(4, y);
+    printDivisionAndModulo(5, y);
+    printDivisionAndModulo(6, y);
+    printDivisionAndModulo(7, y);
+    printDivisionAndModulo(8, y);
+    printDivisionAndModulo(9, y);
+    printDivisionAndModulo(10, y);
 
     return;
   }
