@@ -1,6 +1,8 @@
 public class PickOffCharactersFromString {
   public static void main(String[] args) {
     String band = "Bad Brains";
+    char firstLetter = band.charAt(0);
+    char lastLetter = band.charAt(band.length() - 1);
 
     System.out.println(band.charAt(0));
     System.out.println(band.charAt(1));
@@ -12,5 +14,9 @@ public class PickOffCharactersFromString {
     System.out.println(band.charAt(7));
     System.out.println(band.charAt(8));
     System.out.println(band.charAt(9));
+
+    System.out.println("The first letter in " + band + " is " + firstLetter);
+    System.out.println("The last letter in " + band + " is " + lastLetter);
+
   }
 }
