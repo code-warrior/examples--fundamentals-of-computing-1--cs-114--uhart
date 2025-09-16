@@ -19,6 +19,7 @@ public class Echo {
     message = input.nextLine();
 
     System.out.println("You entered: \"" + message + "\"");
+
     input.close();
   }
 }
