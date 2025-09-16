@@ -14,18 +14,18 @@ public class GasMileage {
     int miles;
     double gallons, mpg;
 
-    Scanner scan = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
     System.out.print("Enter the number of miles: ");
-    miles = scan.nextInt();
+    miles = input.nextInt();
 
     System.out.print("Enter the gallons of fuel used: ");
-    gallons = scan.nextDouble();
+    gallons = input.nextDouble();
 
     mpg = miles / gallons;
 
     System.out.println("Miles Per Gallon: " + mpg);
 
-    scan.close();
+    input.close();
   }
 }
