@@ -16,7 +16,6 @@ public class Echo {
     Scanner input = new Scanner(System.in);
 
     System.out.println("Enter a line of text:");
-
     message = input.nextLine();
 
     System.out.println("You entered: \"" + message + "\"");
