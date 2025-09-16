@@ -7,7 +7,7 @@
 public class TempConverter {
   // ---------------------------------------------------------------------------
   //  Computes the Fahrenheit equivalent of a specific Celsius value using the
-  //  formula F = (9/5)C + 32.
+  //  formula F = (9/5) × C + 32.
   // ---------------------------------------------------------------------------
   public static void main(String[] args) {
     final int BASE = 32;
