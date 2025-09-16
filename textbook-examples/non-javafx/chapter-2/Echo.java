@@ -13,13 +13,13 @@ public class Echo {
   // ---------------------------------------------------------------------------
   public static void main(String[] args) {
     String message;
-    Scanner scan = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
     System.out.println("Enter a line of text:");
 
-    message = scan.nextLine();
+    message = input.nextLine();
 
     System.out.println("You entered: \"" + message + "\"");
-    scan.close();
+    input.close();
   }
 }
