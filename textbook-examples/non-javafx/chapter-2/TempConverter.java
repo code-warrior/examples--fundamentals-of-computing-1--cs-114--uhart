@@ -16,7 +16,7 @@ public class TempConverter {
     double fahrenheitTemp;
     int celsiusTemp = 24;  // value to convert
 
-    fahrenheitTemp = celsiusTemp * CONVERSION_FACTOR + BASE;
+    fahrenheitTemp = CONVERSION_FACTOR * celsiusTemp + BASE;
 
     System.out.println("Celsius Temperature: " + celsiusTemp);
     System.out.println("Fahrenheit Equivalent: " + fahrenheitTemp);
