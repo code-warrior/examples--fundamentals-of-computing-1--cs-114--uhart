@@ -17,6 +17,5 @@ public class PickOffCharactersFromString {
 
     System.out.println("The first letter in " + band + " is " + firstLetter);
     System.out.println("The last letter in " + band + " is " + lastLetter);
-
   }
 }
