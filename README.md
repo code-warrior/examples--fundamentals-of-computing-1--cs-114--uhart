@@ -26,10 +26,10 @@ Many programs in this repo have a Makefile. However, you’ll need to use `javac
 Each Makefile in every JavaFX-related example has two lines related to the `PATH_TO_FX` variable. One behind a comment (`#`) and one exposed:
 
 ```makefile
-# PATH_TO_FX = "C:\Program Files\Java\javafx-sdk-23.0.2\lib"
-PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-23.0.2/lib
+# PATH_TO_FX = "C:\Program Files\Java\javafx-sdk-25\lib"
+PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-25/lib
 ```
 
 If you’re a macOS user and the version of the JavaFX library is exactly as shown in the example above, then the Makefiles are ready to use. You needn’t do anything.
 
-If you’re a Windows user, you’ll need to remove — or comment out — the exposed variable on line 2 above, then enable line 1 by removing the hash (`#`) and the space character that follows it. **Note**: This assumes you’ve placed the JavaFX library (`javafx-sdk-23.0.2`, as of this writing) in `C:\Program Files\Java`.
+If you’re a Windows user, you’ll need to remove — or comment out — the exposed variable on line 2 above, then enable line 1 by removing the hash (`#`) and the space character that follows it. **Note**: This assumes you’ve placed the JavaFX library (`javafx-sdk-25`, as of this writing) in `C:\Program Files\Java`.
