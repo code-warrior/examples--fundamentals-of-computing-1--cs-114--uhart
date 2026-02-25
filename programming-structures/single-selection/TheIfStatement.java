@@ -3,11 +3,11 @@ public class TheIfStatement {
     int x = 30;
     int y = 20;
 
-    if((x == 30) & (++y == 21)) {
+    if((x == 30) && (++y == 21)) {
       System.out.println("The short-circuited AND case!");
     }
 
-    if((y++ == 21) | (x == 30)) {
+    if((y++ == 21) || (x == 30)) {
       System.out.println("The short-circuited OR case!");
     }
 
