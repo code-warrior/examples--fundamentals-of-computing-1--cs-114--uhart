@@ -4,13 +4,13 @@ Unlike binary operators, such as assignment (`=`) and equality (`==`), each of w
 
 All unary operators work in two stages
 
-  + Post-fix operators carry out the following order:
-    1. Read memory
-    2. Increment/decrement what’s currently in memory by one
++ Post-fix operators carry out the following order:
+  1. Read memory
+  2. Increment/decrement what’s currently in memory by one
 
-  + Pre-fix operators carry out the following order:
-    1. Increment/decrement what’s currently in memory by one
-    2. Read memory
++ Pre-fix operators carry out the following order:
+  1. Increment/decrement what’s currently in memory by one
+  2. Read memory
 
 For all examples below, assume the following is included _before_ every increment/decrement operator.
 
