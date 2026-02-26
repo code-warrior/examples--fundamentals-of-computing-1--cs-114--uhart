@@ -1,4 +1,4 @@
-## Examples of Unary Post- and Pre-fix Increment and Decrement Operators
+# Examples of Unary Post- and Pre-fix Increment and Decrement Operators
 
 Unlike binary operators, such as assignment (`=`) and equality (`==`), each of which takes two operands, one on each side, the unary operators only take a single operand. In the examples below, the operand is `x`.
 
