@@ -20,7 +20,7 @@ int x = 15;
 
 ---
 
-### Postfix Increment Operator
+## Postfix Increment Operator
 
 ```java
 x++;                   // Return/read the value of `x`, then increment `x` by 1. In
@@ -29,7 +29,7 @@ x++;                   // Return/read the value of `x`, then increment `x` by 1.
 System.out.println(x); // Prints 16
 ```
 
-### Postfix Decrement Operator
+## Postfix Decrement Operator
 
 ```java
 x--;                   // Return/read the value of `x`, then decrement `x` by 1.
@@ -38,7 +38,7 @@ x--;                   // Return/read the value of `x`, then decrement `x` by 1.
 System.out.println(x); // Prints 14
 ```
 
-### Prefix Increment Operator
+## Prefix Increment Operator
 
 ```java
 ++x;                   // Increment `x` by 1, then return the newly-incremented
@@ -47,7 +47,7 @@ System.out.println(x); // Prints 14
 System.out.println(x); // Prints 16
 ```
 
-### Prefix Decrement Operator
+## Prefix Decrement Operator
 
 ```java
 --x;                   // Decrement `x` by 1, then return the newly-incremented
