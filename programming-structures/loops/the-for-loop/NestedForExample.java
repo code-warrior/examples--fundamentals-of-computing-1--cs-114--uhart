@@ -1,4 +1,4 @@
-public class ForExample {
+public class NestedForExample {
   public static void main(String[] args) {
     final int MAX = 3;
 
