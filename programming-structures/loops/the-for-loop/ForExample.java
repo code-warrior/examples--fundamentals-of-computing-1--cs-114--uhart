@@ -38,6 +38,9 @@ public class ForExample {
     // for(;;)
     //   ;
     //
+    // Note: Exit an infinite loop (and a process, in general) by typing Ctrl + C
+    //
+    // Same as the previous, but true is now explicit
     // for(;true;)
     //   ;
   }
