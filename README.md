@@ -27,7 +27,7 @@ Each Makefile in every JavaFX-related example has two lines related to the `PATH
 
 ```makefile
 # PATH_TO_FX = "C:\Program Files\Java\javafx-sdk-25\lib"
-PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-25/lib
+PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-27/lib
 ```
 
 If you’re a macOS user and the version of the JavaFX library is exactly as shown in the example above, then the Makefiles are ready to use. You needn’t do anything.

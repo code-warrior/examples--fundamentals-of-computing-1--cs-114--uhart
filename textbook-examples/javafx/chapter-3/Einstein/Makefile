@@ -1,6 +1,6 @@
 filename = Einstein
-# PATH_TO_FX = "C:\Program Files\Java\javafx-sdk-25\lib"
-PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-25/lib
+# PATH_TO_FX = "C:\Program Files\Java\javafx-sdk-27\lib"
+PATH_TO_FX = /Library/Java/JavaVirtualMachines/javafx-sdk-27/lib
 module = javafx.controls
 
 all: compile run
