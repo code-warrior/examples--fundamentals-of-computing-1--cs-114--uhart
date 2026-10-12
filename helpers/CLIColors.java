@@ -1,4 +1,4 @@
-package libs;
+package helpers;
 
 public class CLIColors {
   public static final String NORMAL =        "\033[0m";
