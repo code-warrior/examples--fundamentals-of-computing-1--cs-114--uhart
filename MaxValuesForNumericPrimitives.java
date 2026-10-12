@@ -2,6 +2,7 @@
 // may output the sequences instead of setting the colors. The implementation of a
 // workaround is not currently planned.
 import helpers.CLIColors;
+import helpers.Print;
 
 public class MaxValuesForNumericPrimitives {
   public static void main(String[] args) {
@@ -10,34 +11,34 @@ public class MaxValuesForNumericPrimitives {
     //
     // byte, short, integer, long, float, and double
     //
-    System.out.println("A " + CLIColors.RED + "byte" + CLIColors.NORMAL +
+    Print.p("A " + CLIColors.RED + "byte" + CLIColors.NORMAL +
       "’s max value is " + CLIColors.RED + Byte.MAX_VALUE + CLIColors.NORMAL);
 
-    System.out.println();
+    Print.p();
 
-    System.out.println("A " + CLIColors.CYAN + "short" + CLIColors.NORMAL +
+    Print.p("A " + CLIColors.CYAN + "short" + CLIColors.NORMAL +
       "’s max value is " + CLIColors.CYAN + Short.MAX_VALUE + CLIColors.NORMAL);
 
-    System.out.println();
+    Print.p();
 
-    System.out.println("An " + CLIColors.GREEN + "int" + CLIColors.NORMAL +
+    Print.p("An " + CLIColors.GREEN + "int" + CLIColors.NORMAL +
       "’s max value is " + CLIColors.GREEN + Integer.MAX_VALUE + CLIColors.NORMAL);
 
-    System.out.println();
+    Print.p();
 
-    System.out.println("An " + CLIColors.BLUE + "long" + CLIColors.NORMAL +
+    Print.p("An " + CLIColors.BLUE + "long" + CLIColors.NORMAL +
       "’s max value is " + CLIColors.BLUE + Integer.MAX_VALUE + CLIColors.NORMAL);
 
-    System.out.println();
+    Print.p();
 
-    System.out.println("A " + CLIColors.YELLOW + "float" + CLIColors.NORMAL +
+    Print.p("A " + CLIColors.YELLOW + "float" + CLIColors.NORMAL +
       "’s max value is " + CLIColors.YELLOW + Float.MAX_VALUE + CLIColors.NORMAL);
 
-    System.out.println();
+    Print.p();
 
-    System.out.println("A " + CLIColors.MAGENTA + "double" + CLIColors.NORMAL +
+    Print.p("A " + CLIColors.MAGENTA + "double" + CLIColors.NORMAL +
       "’s max value is " + CLIColors.MAGENTA + Double.MAX_VALUE + CLIColors.NORMAL);
 
-    System.out.println();
+    Print.p();
   }
 }
