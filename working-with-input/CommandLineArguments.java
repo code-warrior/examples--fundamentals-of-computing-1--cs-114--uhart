@@ -1,6 +1,6 @@
 public class CommandLineArguments {
   public static void main(String[] args) {
-    if(args.length == 0 ) {
+    if(args.length == 0) {
       System.out.println("This program was not invoked with any command line arguments");
     } else {
       if(args.length == 1) {
